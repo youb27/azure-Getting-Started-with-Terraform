@@ -6,7 +6,7 @@ resource "azurerm_storage_account" "la_storage" {
   account_tier             = "Standard"
   account_replication_type = "GRS"
   tags {
-	group = "LinuxAcademy"
+	group = "IteaAcademy"
   }
 }
 
