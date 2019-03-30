@@ -28,7 +28,7 @@ resource "azurerm_network_security_group" "nsg_web" {
   }
 
   tags {
-	group = "LinuxAcademy"
+	group = "IteaAcademy"
   }
 }
 
@@ -62,6 +62,6 @@ resource "azurerm_network_security_group" "terraform_nsg_db" {
   }
 
   tags {
-	group = "LinuxAcademy"
+	group = "IteaAcademy"
   }
 }
