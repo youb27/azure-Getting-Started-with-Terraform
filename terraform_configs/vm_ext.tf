@@ -16,7 +16,7 @@ resource "azurerm_virtual_machine_extension" "cs_apache" {
   }
 SETTINGS
 
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
@@ -39,7 +39,7 @@ resource "azurerm_virtual_machine_extension" "cs_mysql" {
   }
 SETTINGS
 
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
