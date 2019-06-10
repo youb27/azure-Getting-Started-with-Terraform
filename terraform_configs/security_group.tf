@@ -27,7 +27,7 @@ resource "azurerm_network_security_group" "nsg_web" {
     destination_address_prefix 	= "*"
   }
 
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
@@ -61,7 +61,7 @@ resource "azurerm_network_security_group" "terraform_nsg_db" {
     destination_address_prefix 	= "*"
   }
 
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
