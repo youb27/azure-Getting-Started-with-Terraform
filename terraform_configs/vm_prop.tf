@@ -32,7 +32,7 @@ resource "azurerm_virtual_machine" "la_web" {
     disable_password_authentication = false
   }
 
-  tags {
+  tags = {
     group = "IteaAcademy"
   }
 }
@@ -81,7 +81,7 @@ resource "azurerm_virtual_machine" "la_db" {
     disable_password_authentication = false
   }
 
-  tags {
+  tags = {
     group = "IteaAcademy"
   }
 }
