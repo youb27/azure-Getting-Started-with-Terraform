@@ -5,7 +5,7 @@ resource "azurerm_storage_account" "la_storage" {
   account_type 			= "Standard_LRS"
   account_tier             = "Standard"
   account_replication_type = "GRS"
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
