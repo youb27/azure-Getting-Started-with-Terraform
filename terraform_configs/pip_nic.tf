@@ -4,7 +4,7 @@ resource "azurerm_public_ip" "la_pip" {
   resource_group_name 		= "${azurerm_resource_group.terraform_rg.name}"
   public_ip_address_allocation 	= "static"
 
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
@@ -21,7 +21,7 @@ resource "azurerm_network_interface" "public_nic" {
     private_ip_address_allocation = "dynamic"
     public_ip_address_id	= "${azurerm_public_ip.la_pip.id}"
   }
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
@@ -32,7 +32,7 @@ resource "azurerm_public_ip" "la_db_pip" {
   resource_group_name   = "${azurerm_resource_group.terraform_rg.name}"
   public_ip_address_allocation = "dynamic"
 
-  tags {
+  tags = {
         group = "IteaAcademy"
   }
 }
@@ -50,7 +50,7 @@ resource "azurerm_network_interface" "private_nic" {
     private_ip_address = "192.168.2.5"
     public_ip_address_id = "${azurerm_public_ip.la_db_pip.id}"
   }
-  tags {
+  tags = {
 	group = "IteaAcademy"
   }
 }
