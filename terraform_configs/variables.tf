@@ -8,22 +8,22 @@ provider "azurerm" {
 
 variable "subscription_id" {
   description = "Enter Subscription ID for provisioning resources in Azure"
-  default = "d02f98cd-dbbd-43c2-90ad-a7654476189e"
+  default = "a016bd38-890b-4a11-aa26-f9921bf16b0e"
 }
 
 variable "client_id" {
   description = "Enter Client ID for Application created in Azure AD"
-   default = "1e763e4a-8fdc-4405-967c-6f778a0c726f"
+   default = "c68d9f7e-a3a2-4ca5-8d10-5419b4f38950"
 }
 
 variable "client_secret" {
   description = "Enter Client secret for Application in Azure AD"
-    default = "ejJix0j+2CIGHEWz3eC9hkYYqmpwr_Z:["
+    default = "/]eCTHsg88.=gbgXc5lyvF5*pVNjiyhl"
 }
 
 variable "tenant_id" {
   description = "Enter Tenant ID / Directory ID of your Azure AD. Run Get-AzureSubscription to know your Tenant ID"
-     default =  "ea49408-4ebb-42fe-858d-a2eef9ed3b05"
+     default =  "0c42074e-11ed-43fb-9040-274078614deb"
 }
 
 variable "location" {
