@@ -33,7 +33,7 @@ variable "location" {
 
 variable "resource_group_name" {
   description = "Resource group name that will contain various resources"
- default = "Terraform-IteaAcademy"
+ default = "IteaAcademy"
 }
 
 variable "vnet_cidr" {
