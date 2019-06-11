@@ -13,12 +13,12 @@ variable "subscription_id" {
 
 variable "client_id" {
   description = "Enter Client ID for Application created in Azure AD"
-   default = "c68d9f7e-a3a2-4ca5-8d10-5419b4f38950"
+   default = "009fa38c-3427-4a45-81ce-736a11bfed7e"
 }
 
 variable "client_secret" {
   description = "Enter Client secret for Application in Azure AD"
-    default = "/]eCTHsg88.=gbgXc5lyvF5*pVNjiyhl"
+    default = "a8dcb9d9-deb8-4945-b0b4-58b4e7c3a013"
 }
 
 variable "tenant_id" {
